@@ -1,0 +1,129 @@
+#main_page
+	height: 100vh
+
+.header_top_side
+	padding-top: 36px
+
+.header_logo
+	display: flex 
+	
+.header_desc
+	margin-left: 10px
+	&__title
+	   margin: 0
+	   font-family: $font-got-bold
+	   font-weight: 700
+	   font-size: 20px
+	   text-transform: uppercase
+	   letter-spacing: 2px
+	   color: $light_black
+	&__under_title
+	   font-family: $font-got-light
+	   font-weight: 300
+	   font-size: 11px
+	   color: #969696
+
+.header_contacts
+	display: flex 
+	flex-direction: column 
+	align-items: flex-end
+	&__number
+	   font-family: $font-got-bold
+	   font-weight: 700
+	   font-size: 18px
+	   text-transform: uppercase
+	   color: $light_black
+	&__desc
+	   font-family: $font-got-reg
+	   font-weight: 400
+	   font-size: 11px   
+	   color: #969696
+
+
+.header_submit
+	margin-top: 5px
+	display: flex 
+	justify-content: flex-end
+	& input 
+	  border: 2px solid $light_black
+	  padding: 5px 10px
+	  background: transparent
+	  font-family: $font-got-med
+	  font-weight: 500
+	  font-size: 12px
+	  color: $light_black
+	& input:hover
+	  background-color: $yellow-c
+	  transition: 0.8s
+
+
+.header_bottom_side
+	background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8) ), url('../../img/header_bg.jpg') no-repeat center 
+	background-size: cover
+	min-height: 550px
+
+
+.header_menu
+	display: flex 
+	justify-content: space-around
+	padding: 15px 0
+	margin-bottom: -25px
+	background-color: $yellow-c
+	& li 
+	  list-style: none 
+	  font-family: $font-got-med
+	  font-weight: 500
+	  font-size: 14px
+	& a
+	  text-decoration: none 
+	  color: #000000
+	& a:hover
+	  color: #626262
+	  text-decoration: none
+	  transition: 0.8s
+
+
+
+.header_info
+	padding-top: 25vh
+	&__title
+	   font-family: $font-got-bold
+	   font-weight: 700
+	   font-size: 36px
+	   text-transform: uppercase
+	   color: $light_black
+	   padding-bottom: 20px
+	&__text
+	   padding-bottom: 20px
+	   font-family: $font-got-light
+	   font-weight: 300
+	   font-size: 14px
+	   color: #fff
+	&__button
+	   padding: 10px 15px
+	   margin-right: 10px
+	   font-family: $font-got-med
+	   font-size: 12px
+	   font-weight: 500
+	   background-color: $yellow-c
+	   border: none 
+	   color: #0d0d0d
+
+.header_link
+	font-family: $font-got-light
+	font-weight: 300
+	color: #ffffff
+	font-size: 12px
+	&__forward
+	   font-family: $font-got-med
+	   font-weight: 500
+	   margin-left: 10px
+	   text-decoration: none 
+	   color: #ffffff
+	&__forward:hover 
+	   text-decoration: none 
+	   color: $yellow-c
+	   transition: 0.8s
+
+	
+      
