@@ -1,2 +1,36 @@
 @import './interface'
 @import './_mixins/breakpoints'
+
+
+
++md-block()
+	.header_contacts
+		align-items: center
+	.commodities_items
+		padding: 25px 10px 
+
+
++sm-block()
+	.header_menu
+		display: none 
+	.header_submit
+		display: none 
+	.header_contacts
+		align-items: center  
+	.header_desc
+		&__title
+		   height: 100%
+		   display: flex 
+		   align-items: center 
+		&__under_title
+		   display: none 
+	.m-menu-link
+		display: flex
+		justify-content: flex-end
+	.adaptive
+		display: block
+		margin-bottom: 10px
+
++xs-block()
+	.header_contacts
+		text-align: center 
