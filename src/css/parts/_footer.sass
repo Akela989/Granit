@@ -1,6 +1,6 @@
 @import './interface'
 
-#footer
+#contacts_page
 	padding: 50px 0 
 	background-color: $light_black
 	color: #ffffff 
@@ -13,7 +13,7 @@
 .footer_desc
 	margin: 0 0 30px 10px
 	&__title
-	   margin: 0
+	   margin-bottom: 3px
 	   font-family: $font-got-bold
 	   font-weight: 700
 	   font-size: 19px
@@ -27,28 +27,32 @@
 
 
 .footer_copyright
+	display: flex 
+	flex-direction: column 
+	justify-content: flex-end
 	font-family: $font-got-reg
 	font-weight: 400
 	font-size: 12px
 
 
 .footer_contacts
+	height: 100%
 	display: flex 
 	flex-direction: column 
 	align-items: flex-end
 	&__number
 	   font-family: $font-got-bold
 	   font-weight: 700
-	   font-size: 18px
+	   font-size: 19px
 	   text-transform: uppercase
 	&__desc
 	   font-family: $font-got-reg
-	   font-weight: 400
-	   font-size: 11px 
+	   font-weight: 300
+	   font-size: 10px 
 
 
 .footer_submit
-	margin-top: 10px
+	margin-top: auto
 	& input 
 	   border: 2px solid #ffffff
 	   border-radius: 5px
